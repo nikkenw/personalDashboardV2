@@ -1,15 +1,12 @@
 body {
-    /* margin: 0;
+    margin: 0;
     background: no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: white;
-    text-shadow: 0px 0px 20px #242424;*/
+    text-shadow: 0px 0px 20px #242424;
     font-family: 'Roboto', sans-serif; 
-    background: #0f0f0f;
-    margin: 0;
     color: white;
 }
 
@@ -20,16 +17,17 @@ body {
 }
 
 .time {
-    box-sizing: border-box;
-    border: 1px solid white;
     font-size: 3em;
     text-align: center;
 }
 
 #greeting {
-border: 1px solid magenta;
-box-sizing: border-box;
 font-size: 3em;
 align-items: center;
 margin: auto;
 }
+
+#weather {
+    display: flex;
+}
+
